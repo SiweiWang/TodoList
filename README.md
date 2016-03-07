@@ -1,6 +1,8 @@
 # Todo List Project (Under Construction)
 For more intomation about this project, see [here](https://www.coursera.org/learn/rails-with-active-record/home)
 
+This app is deployed on Heroku as well, check it out [here](https://todo-list-siwei.herokuapp.com/todo_items)
+
 ## A demo project to showcase rails active records and action pack in rails 4
 
 ### Quick start
