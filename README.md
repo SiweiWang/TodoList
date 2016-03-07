@@ -1,15 +1,22 @@
-## TodoList
+# Todo List Project (Under Construction)
+For more intomation about this project, see [here](https://www.coursera.org/learn/rails-with-active-record/home)
 
-### A demo project to showcase active recode in rails 4
+## A demo project to showcase rails active records and action pack in rails 4
 
-There are four models
+### Quick start
+ 1. Clone this repo 
+ 2. Run rails server (or rails s)
+ 3. visit this [URL] (http://localhost:3000/todo_items) to see list of todo items
 
+### Models 
+There are four models in the todo list:
   1. User
   2. Profile
   3. TodoList
   4. TodoItem
 
-  Relationship is describe by the diagram below:
+### ER Diagram
+Relationship is describe by the diagram below:
 
         |------| 1      1 |----------|
         | User |----------| Profile  |
@@ -17,5 +24,8 @@ There are four models
             \
              \
               \ 1   * |----------| 1      * |----------|
-               \------| TodoList |----------| TodoItem | 
+               \------| TodoList |----------| TodoItem |
                       |----------|          |----------|
+
+
+~
